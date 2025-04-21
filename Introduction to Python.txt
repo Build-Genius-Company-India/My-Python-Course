@@ -1,0 +1,97 @@
+Hello World!
+
+To print text in Python, use the print() function:
+
+print("Hello World!")
+Note: Text inside quotation marks is case-sensitive.
+
+Comments
+
+Comments in Python:
+
+1. Single-line comments:
+
+# This is a single-line comment
+2. Multi-line comments:
+
+"""
+This is a
+multi-line comment
+"""
+Comments are ignored by the compiler and used for code explanation.
+
+Numbers
+
+Variables in Python:
+
+Containers that hold data values
+Used to store, manipulate, and display information
+Have a unique name and a value
+Python automatically detects variable type
+Variable initialization format:
+
+variable_name = value
+Number types:
+
+int: whole numbers (e.g., 1, -2)
+float: real numbers (e.g., 1.32, 0.98)
+Examples:
+
+a = 3    # int
+b = 13.2 # float
+
+String
+
+A char is a single character (e.g., 1, 6, %, b, p, ., T).
+
+A str (string) is a sequence of multiple characters.
+
+To create a string variable, enclose the text in single or double quotes:
+
+s1 = 'This is a string'
+s2 = "This is also a string"
+Both single and double quotes are valid for creating strings in Python.
+
+Boolean
+
+A bool (Boolean) type has only 2 possible values: True or False.
+
+To assign a bool value to a variable,
+
+variable_true = True
+variable_false = False
+In the above example, two variables named variable_true and variable_false are initialized, with the values True and False respectively.
+
+Booleans are the building blocks for creating logic in the programs we write. We have a whole chapter about logic and conditions.
+
+Naming Conventions
+
+Naming conventions are a set of guidelines that developers follow to make their code more readable and maintainable. Different programming languages often have different naming conventions. In python, variables are written in snake case - words are separated by underscores.
+
+When writing a variable name be descriptive and use meaningful words
+
+For example 
+
+# Bad Naming
+isActive = False # not snake case
+a = 10
+b = "Hello"
+x = True
+
+# Good Naming
+age = 10
+greeting = "Hello"
+is_active = True
+
+Empty Variables
+
+In Python, None is a special value that represents "nothing" or "no value." It's like an empty box - it exists, but there's nothing inside it. For example:
+
+empty_box = None
+In a real scenario you could use None to indicate that something was not initialized yet.
+
+For example:
+
+score = None  # Score hasn't been calculated yet
+name = None   # Name hasn't been entered yet 
+
